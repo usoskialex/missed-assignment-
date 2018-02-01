@@ -16,7 +16,7 @@ namespace bit285_lucky_number_viewmodel
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "LuckyNumber", action = "Index", id = UrlParameter.Optional }
             );
         }
     }
